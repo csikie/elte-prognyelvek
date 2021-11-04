@@ -10,7 +10,7 @@ public class AdderTest {
   private static final double EPSILON = 0.01;
 
   @Test
-  public void add_isSane(){
+  public void add_isSame(){
     int result = Integer.parseInt(Adder.add("145", "972"));
     assertEquals(145+972, result);
     
