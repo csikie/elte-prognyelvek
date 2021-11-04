@@ -14,6 +14,7 @@ public class BookTest{
     public void setUp() {
         Book.resetId();
     }
+    
     @After
     public void tearDown() {
         Book.resetId();
